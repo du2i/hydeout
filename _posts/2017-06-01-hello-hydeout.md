@@ -4,80 +4,109 @@ title: Hello Hydeout
 excerpt_separator:  <!--more-->
 ---
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
+# 자기소개서
 
-### Keep It Simple
+깃허브 블로그 링크 : https://du2i.github.io/hydeout/
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
+## 인적 사항
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+- 이름 : 김주희
 
-### Customization
+- 나이 : 22세
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
+- 성별 : 여성
 
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-fg-color: white !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-```
+- 직업 : 학생
 
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
+- 이메일 : lucy051642@gmail.com
 
-```
----
-# Jekyll needs front matter for SCSS files
----
+- github : https://github.com/du2i
 
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import "hydeout";
-```
 
-See the [_variables](https://github.com/fongandrew/hydeout/blob/master/_sass/hydeout/_variables.scss) file for other variables
-you can override.
+## 학력
 
-You can also insert custom head tags (e.g. to load your own stylesheets) by
-defining your own `_includes/custom-head.html` or insert tags at the end
-of the body (e.g. for custom JS) by defining your own
-`_includes/custom-foot.html`.
+- 대학
 
-### New Features
+  - 제주대학교 전기전자통신컴퓨터공학부 컴퓨터공학전공 - 재학
 
-* Hydeout also adds a new tags page (accessible in the sidebar) and a new
-  "category" layout for dedicated category pages.
+- 고등
 
-* Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar.
+  - 신성여자고등학교 - 졸업
 
-* A simple redirect-to-Google search is available. If you want to use
-  Google Custom Search or Algolia or something with more involved,
-  override the `search.html`.
+- 중등
 
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
+  - 제주동여자중학교 - 졸업
 
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
+- 초등
 
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
+  - 제주남광초등학교 - 졸업
 
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
+​    
 
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+## 진로
+
+- 진로
+
+  - 공기업 전산직
+- 은행 전산직
+  - 공무원 전산직
+  - UX 디자이너
+
+​    
+
+## 활동
+
+- 2019
+
+  - 여름방학 - 베트남 IT 해외봉사활동
+  - 스마트팜 해커톤
+  
+  - 컴퓨터공학전공 전시회
+- 2020
+
+  - 자격증준비 및 전공 공부
+  - 웹/앱 동아리 활동
+
+​    
+
+## 개발 및 데이터 분석 경험 
+
+- 아두이노를 활용하여 온습도측정
+
+
+​    
+
+## 사용 가능 언어
+
+- JavaScript
+
+- C
+
+- Unity
+
+  
+
+​    
+
+## 앞으로 목표
+
+- 자격증 준비 열심히 하고 내 개인 프로젝트 성취
+
+
+
+## fork
+
+- 견고한 웹 서비스를 하기 위한 실용적인 보안 가이드
+  - 링크 : https://github.com/du2i/web-service-hardening
+  - 보안을 소홀히 하거나 관심이 없어서 해킹을 당하거나 정보 유출이 발생한다면 심각한 피해를 입을 수 있고 특히 강화된 개인정보보호법과 정보통신망법에 의해 큰 사업상의 손실을 입을 수도 있다.
+  - 하지만 기밀 정보를 보호하고 시스템을 안전하게 유지하는 것은 많은 보안 지식을 필요로 한다.
+  - 따라서 리눅스를 기반으로 웹 서비스를 제공할 경우 필수적으로 챙겨야 할 보안의 핵심 사항을 정리해 보고 실무에서 활용할 수 있는 베스트 프랙티스를 제공.
+  
+- 학습 - 자바 스크립트 가이드
+  - 링크 :  https://github.com/du2i/learning-javascript-guide
+  - 자바 스크립트 관련 내용으로 참고 서적 및 블로그, 구글링 링크도 읽어보기에 추가 예정이다.
+  - 언어를 더 자세하게 배우고 싶어서 알아보게 되었다.
+  
+  
+  
+
